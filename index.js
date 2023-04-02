@@ -1,6 +1,6 @@
 const mostrarUOcultar = () => {
-    let imagen1 = document.getElementById("bandera korea")
-    let imagen2 = document.getElementById("bandera japon")
+    let imagen1 = document.getElementById("bandera-korea")
+    let imagen2 = document.getElementById("bandera-japon")
 
     if (imagen1.classList.contains("d-none")
 
