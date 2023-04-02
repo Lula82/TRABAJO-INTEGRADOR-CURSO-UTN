@@ -1,8 +1,12 @@
+body {
+    background-color: lightgrey;
+}
+
 .contenedor-de-encabezado {
     background-color: white;
     border: solid 2px red;
     border-radius: 2em;
-
+    margin-top: 20px;
 }
 
 #bienvenida {
@@ -15,7 +19,7 @@
     color:#3e36b2;
 
     font-family:georgia;
-    font-size: 40px;
+    font-size: 36px;
 
 }
 .contenedor-de-encabezado .menu nav {
