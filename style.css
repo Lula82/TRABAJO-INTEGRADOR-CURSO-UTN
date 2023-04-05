@@ -1,5 +1,7 @@
 body {
     background-color: lightgrey;
+    font-family: 'Montserrat', serif;
+        font-size: 30px;
 }
 
 .contenedor-de-encabezado {
@@ -11,14 +13,12 @@ body {
 
 #bienvenida {
     color:#423B39;
-    /* font-family:'Courier New', Courier, monospace */
-    font-size: 60px;
+    font-size: 70px;
 }
 
 .contenedor-de-encabezado .titulo {
     color:#FF002F;
 
-    /* font-family:georgia; */
     font-size: 40px;
 
 }
@@ -30,7 +30,7 @@ body {
     
     color: black;
     font-family: helvetica;
-    /* font-size: 10px; */
+    font-size: 25px;
     text-decoration: none;
     padding: 12px 18px;
     
@@ -48,6 +48,14 @@ body {
 #bandera-japon {
     width: 50px;
     height: 50px;
+}
+
+.card-title {
+    font-weight:600;
+    font-size: 35px 
+}
+.card-subtitle {
+    font-size:20px;
 }
 
 @import url('https://fonts.googleapis.com/css2? family= Raleway:ital,wght@1,400;1,500;1,600 & display=swap');
