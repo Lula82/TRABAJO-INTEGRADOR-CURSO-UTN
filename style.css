@@ -43,7 +43,39 @@ body {
 .tarjeta-idioma {
     max-width: 25rem;
 }
+.card2 {
+    position: relative;
+}
+.card2 .face {
+    position: absolute;
+backface-visibility: hidden;
+overflow: hidden;
+transition: .5s;
+}
+.card2 .front {
+    transition: transform .7s ease-in-out;
 
+    transform: perspective(600px) rotateY(0deg);
+}
+.front img {
+ 
+}
+.card2 .back {
+    transition: transform .7s ease-in-out;
+
+    transform: perspective(600px) rotateY(180deg);
+    background: gainsboro;
+    text-align:justify;
+}
+.card2:hover .front {
+    transition: transform .7s ease-in-out;
+    transform: perspective(600px) rotateY(180deg);
+
+}
+.card2:hover .back {
+    transition: transform .7s ease-in-out;
+    transform: perspective(600px) rotateY(360deg);
+}
 #bandera-korea {
     width: 50px;
     height: 50px;
