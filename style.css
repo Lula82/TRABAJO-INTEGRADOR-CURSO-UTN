@@ -50,10 +50,14 @@ body {
     height: 50px;
 }
 .parte-idioma {
-    background-color: rgb(209, 166, 56);
     font-size: 30px;
     font-weight: 600;
     color:#0c0002;
+}
+.parte-staff{
+    font-size: 30px;
+    font-weight: 600;
+    color:#0c0002
 }
 .card-title {
     font-weight:600;
