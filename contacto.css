@@ -1,23 +1,32 @@
-@import url('https://fonts.googleapis.com/css2? family= Raleway:ital,wght@1,400;1,500;1,600 & display=swap');
+@font-face {
+    font-family: Raleway-Medium;
+    src: url(fonts/Raleway-Medium.ttf);
+  }
 
-
+  @font-face {
+    font-family: Raleway-Regular;
+    src: url(fonts/Raleway-Regular.ttf);
+  }
+  @font-face {
+    font-family: Raleway-Bold;
+    src: url(fonts/Raleway-Bold.ttf);
+  }
 * {
 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Raleway', sans-serif;
+    font-family: Raleway-Medium, sans-serif;
 }
 
 body {
     background-color: #d0c8f5;
 }
 
-.container .subcontainer {
+.container.main {
    display: flex;
    background-color: #fff;
-   height: 950px;
-   width: 1000px;
+   
    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
    margin: auto;
    margin-top: 150px;
@@ -44,9 +53,9 @@ body {
 }
 .form h2 {
     font-size: 45px;
-    color: #f12805;
-    font-weight: 600;
-   font-family: 'Raleway', sans-serif;
+    color: #FF002F;
+    font-family: Raleway-Bold, sans-serif;
+    margin-bottom: 25px; 
 
 }
 .form p {font-size: 16px;
@@ -67,7 +76,7 @@ label{font-size: 15px;
         outline: none;
     }
     .submit{
-        background-color: #f12805;
+        background-color: #FF002F;
         border: 0;
         padding: 15px;
         color:#fff;
@@ -102,23 +111,12 @@ label{font-size: 15px;
         font-size: 14px;
         color: #050608;
      }
-     .social {
+    
+     .social-media{
         display: flex;
         justify-content: space-between;
      }
-     
-     
-     @media(max-width:990px){
-        .container  subcontainer {
-            width: 350px;
-            height: 800px;
-            margin-top: 50px;
-        }
-        .info {
-            display: none;
-        }
-        .form {
-            width: 100px;
-            padding: 30px;
-        }
+     .error{
+     border: 1px solid #ff0000;
      }
+    
