@@ -24,7 +24,8 @@ body {
 }
 .contenedor-de-encabezado .menu nav {
     display: flex;
-   align-items: center;
+    flex-wrap: wrap;
+    align-items: center;
 }
 .contenedor-de-encabezado .menu a {
     
