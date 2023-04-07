@@ -40,6 +40,9 @@ body {
     border-bottom: 1px dotted black;
 }
 
+.tarjeta-idioma {
+    max-width: 25rem;
+}
 
 #bandera-korea {
     width: 50px;
@@ -154,11 +157,6 @@ label{font-size: 15px;
         margin-right: 30px;
      }
      @media(max-width:990px){
-        .container {
-            width: 350px;
-            height: 800px;
-            margin-top: 50px;
-        }
         .info {
             display: none;
         }
