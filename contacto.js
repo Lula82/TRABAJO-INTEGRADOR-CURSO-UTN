@@ -1,11 +1,11 @@
-let name= $("#nombre").val();
+let name_val= $("#nombre").val();
     let email= $("#email").val();
     let number= $("#telefono").val();
     let mensaje= $("#mensaje").val();
     var errors = 0;
 function validateForm(){
     
-    if(name.length < 2)
+    if(name_val.length < 2)
     {
        errors++;
        $("#nombre").addClass('error');   
@@ -23,9 +23,7 @@ function validateForm(){
     {
        $('#mensaje').removeClass('error');
     }
-    if(errors==0){
-        location.assign("success.html");
-    }
+   
 }
 $("#submit-btn").on("click", function(e){
     e.preventDefault();
