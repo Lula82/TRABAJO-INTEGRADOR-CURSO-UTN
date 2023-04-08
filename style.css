@@ -57,9 +57,7 @@ transition: .5s;
 
     transform: perspective(600px) rotateY(0deg);
 }
-.front img {
- 
-}
+
 .card2 .back {
     transition: transform .7s ease-in-out;
 
