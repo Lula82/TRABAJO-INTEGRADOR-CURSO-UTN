@@ -39,8 +39,10 @@ body {
 .contenedor-de-encabezado .menu a:hover {
     border-bottom: 1px dotted black;
 }
+
 .tarjeta-idioma {
     max-width: 25rem;
+    margin-top: 5%;
 }
 #bandera-korea {
     width: 50px;
@@ -66,10 +68,10 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border: 1px solid #c04232;
+    border: 1px solid #FF002F;
     border-radius: 25px;
-    margin: 30px;
-    background: linear-gradient(to bottom, #e29b61, #f0f0f0);
+    margin: 3%;
+    background: linear-gradient(to bottom, #a38106, #f0f0f0);
     box-shadow: 15px -15px 27px 4px rgba(0,0,0,0.72);
 -webkit-box-shadow: 15px -15px 27px 4px rgba(0,0,0,0.72);
 -moz-box-shadow: 15px -15px 27px 4px rgba(0,0,0,0.72);
@@ -88,7 +90,6 @@ body {
 .employee__fullName {
     margin-top: 10px;
     text-align: center;
-    font-family: 'Special Elite', cursive;
 
 }
 
