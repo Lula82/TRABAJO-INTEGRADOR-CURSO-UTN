@@ -39,45 +39,12 @@ body {
 .contenedor-de-encabezado .menu a:hover {
     border-bottom: 1px dotted black;
 }
-
 .tarjeta-idioma {
     max-width: 25rem;
 }
-.card2 {
-    position: relative;
-    max-width: 25rem;
-}
-.card2 .face {
-    position: absolute;
-backface-visibility: hidden;
-overflow: hidden;
-transition: .5s;
-}
-.card2 .front {
-    transition: transform .7s ease-in-out;
-    transform: perspective(600px) rotateY(0deg);
-}
-.front img {
- 
-}
-.card2 .back {
-    transition: transform .7s ease-in-out;
-    transform: perspective(600px) rotateY(180deg);
-    background: gainsboro;
-    text-align:justify;
-}
-.card2:hover .front {
-    transition: transform .7s ease-in-out;
-    transform: perspective(600px) rotateY(180deg);
-
-}
-.card2:hover .back {
-    transition: transform .7s ease-in-out;
-    transform: perspective(600px) rotateY(360deg);
-}
 #bandera-korea {
     width: 50px;
-    height: 50px;
+    height:50px;
 }
 
 #bandera-japon {
@@ -94,12 +61,41 @@ transition: .5s;
     font-weight: 600;
     color:#0c0002
 }
-.card-title {
-    font-weight:600;
-    font-size: 35px 
+.employee__card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #c04232;
+    border-radius: 25px;
+    margin: 30px;
+    background: linear-gradient(to bottom, #e29b61, #f0f0f0);
+    box-shadow: 15px -15px 27px 4px rgba(0,0,0,0.72);
+-webkit-box-shadow: 15px -15px 27px 4px rgba(0,0,0,0.72);
+-moz-box-shadow: 15px -15px 27px 4px rgba(0,0,0,0.72);
 }
-.card-subtitle {
-    font-size:18px;
+
+.employee__card:hover {
+    scale: 120%;
+    cursor: pointer;
+}
+
+.employee__avatar {
+    width: 180px;
+    margin: auto 40px;
+}
+
+.employee__fullName {
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Special Elite', cursive;
+
+}
+
+.employee__position {
+
+    text-align: center;
+    margin-top: 10px;
 }
 
 @import url('https://fonts.googleapis.com/css2? family= Raleway:ital,wght@1,400;1,500;1,600 & display=swap');
