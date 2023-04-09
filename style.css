@@ -42,11 +42,11 @@ body {
 
 .tarjeta-idioma {
     max-width: 25rem;
+    margin-top: 5%;
 }
-
 #bandera-korea {
     width: 50px;
-    height: 50px;
+    height:50px;
 }
 
 #bandera-japon {
@@ -63,12 +63,40 @@ body {
     font-weight: 600;
     color:#0c0002
 }
-.card-title {
-    font-weight:600;
-    font-size: 35px 
+.employee__card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #FF002F;
+    border-radius: 25px;
+    margin: 3%;
+    background: linear-gradient(to bottom, #a38106, #f0f0f0);
+    box-shadow: 15px -15px 27px 4px rgba(0,0,0,0.72);
+-webkit-box-shadow: 15px -15px 27px 4px rgba(0,0,0,0.72);
+-moz-box-shadow: 15px -15px 27px 4px rgba(0,0,0,0.72);
 }
-.card-subtitle {
-    font-size:18px;
+
+.employee__card:hover {
+    scale: 120%;
+    cursor: pointer;
+}
+
+.employee__avatar {
+    width: 180px;
+    margin: auto 40px;
+}
+
+.employee__fullName {
+    margin-top: 10px;
+    text-align: center;
+
+}
+
+.employee__position {
+
+    text-align: center;
+    margin-top: 10px;
 }
 
 @import url('https://fonts.googleapis.com/css2? family= Raleway:ital,wght@1,400;1,500;1,600 & display=swap');
