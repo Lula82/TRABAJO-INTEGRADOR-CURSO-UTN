@@ -1,0 +1,59 @@
+body{
+    background-image: url("img/ilustracion1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    position: relative;
+
+}
+.wave{
+    height: 150px; 
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.hero h1{
+    font-family: "Raleway-Bold", sans-serif;
+    color: #000;
+    text-shadow: 4px 3px 4px rgba(121, 120, 120, 0.342);
+    display: flex;
+    justify-content:center;
+    position: relative;
+    top: 20px;
+    bottom:0;
+    right:0;
+    left:0;
+}
+
+.hero p {
+    font-family: "Raleway-Semibold", sans-serif;
+    position: relative;
+    top: 100px;
+    bottom:0;
+    right:0;
+    left:600px;
+    padding: 20px;
+    color:white;
+   background-color:rgba(255, 193,7,0.8);
+   box-shadow: 3px 3px 0 rgba(158, 157, 157, 0.445);
+   width: 400px;
+   height: 130px;
+   display: flex;
+   justify-content:center
+    
+}
+.hero {
+  display: flex;
+  justify-content:center
+}
+.btn {
+    position: relative;
+    top: 200px;
+    bottom:0;
+    right:0;
+    left:500px;
+}
+
