@@ -45,6 +45,7 @@ body {
 }
 .card2 {
     position: relative;
+    max-width: 25rem;
 }
 .card2 .face {
     position: absolute;
@@ -54,7 +55,6 @@ transition: .5s;
 }
 .card2 .front {
     transition: transform .7s ease-in-out;
-
     transform: perspective(600px) rotateY(0deg);
 }
 .front img {
@@ -62,7 +62,6 @@ transition: .5s;
 }
 .card2 .back {
     transition: transform .7s ease-in-out;
-
     transform: perspective(600px) rotateY(180deg);
     background: gainsboro;
     text-align:justify;
