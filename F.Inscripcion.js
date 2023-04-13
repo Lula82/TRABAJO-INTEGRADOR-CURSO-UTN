@@ -35,3 +35,22 @@ document.getElementById("btn").addEventListener("click", () => {
     alert("haz llenado todo")
 });
 
+
+// Obtener datos del formulario
+
+const form = document.querySelector("#form");
+
+form.addEventListener("submit", (e) => {
+e.preventDefault();
+let nombre = document.querySelector("#nombre").value;
+let correo = document.querySelector("#correo").value;
+let select = document.querySelector("#select").value;
+
+
+console.log(nombre, correo, select);
+document.getElementById("nombre").value="";
+document.getElementById("correo").value="";
+document.getElementById("select").value="";
+
+})
+
