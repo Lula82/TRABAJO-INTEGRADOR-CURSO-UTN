@@ -8,8 +8,8 @@ body{
     min-height: 100vh;
     position: relative;
     
-
 }
+
 .wave{
     height: 150px; 
     overflow: hidden;
@@ -30,29 +30,27 @@ body{
 }
 .textos-hero h1 {
     font-size: 50px;
-    text-shadow: 4px 3px 4px rgba(49, 48, 48, 0.5);
+    text-shadow: 4px 3px 4px rgba(250, 246, 246, 0.959);
+    color:#510c61;
       }
       .textos-hero p{
         font-size: 20px;
         margin-bottom: 20px;
-        box-shadow: 3px 3px 0 rgba(48, 46, 46, 0.445);
+        box-shadow: 3px 3px 0 rgba(48, 46, 46, 0.445); 
         background-color: rgba(255,193,7,0.8);
         padding: 10px;
       }
       .btn{
         display:inline-flex;
-        margin-left: 50px;
+      
         text-decoration: none;
-        text-shadow: 4px 3px 4px rgba(121, 120, 120, 0.342);
+        text-shadow: 4px 3px 4px rgba(121, 120, 120, 0.5);
         padding: 12px 15px ;
-        background-color: rgba(255,193,7,0.8);
+        background-color:#510c61;
         border-radius: 8px;
         color: aliceblue;
-
-        
-      }
-      
-      
+        }    
+       
     .btn:hover,
     .btn:focus{
         cursor: pointer;
