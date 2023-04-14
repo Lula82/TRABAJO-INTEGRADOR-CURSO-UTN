@@ -3,8 +3,11 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    background-attachment: fixed;
+    overflow: hidden;
     min-height: 100vh;
     position: relative;
+    
 
 }
 .wave{
@@ -16,44 +19,41 @@ body{
     width: 100%;
     display: flex;
 }
-.hero h1{
-    font-family: "Raleway-Bold", sans-serif;
-    color: #000;
-    text-shadow: 4px 3px 4px rgba(121, 120, 120, 0.342);
+.textos-hero {
+    height: 200px;
+    color: aliceblue;
     display: flex;
-    justify-content:center;
-    position: relative;
-    top: 0;
-    bottom:0;
-    right:0;
-    left:0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
+.textos-hero h1 {
+    font-size: 50px;
+    text-shadow: 4px 3px 4px rgba(49, 48, 48, 0.5);
+      }
+      .textos-hero p{
+        font-size: 20px;
+        margin-bottom: 20px;
+        box-shadow: 3px 3px 0 rgba(48, 46, 46, 0.445);
+        background-color: rgba(255,193,7,0.8);
+        padding: 10px;
+      }
+      .btn{
+        display:inline-flex;
+        margin-left: 50px;
+        text-decoration: none;
+        text-shadow: 4px 3px 4px rgba(121, 120, 120, 0.342);
+        padding: 12px 15px ;
+        background-color: rgba(255,193,7,0.8);
+        border-radius: 8px;
+        color: aliceblue;
 
-.hero p {
-    font-family: "Raleway-Semibold", sans-serif;
-    position: relative;
-    top: 100px;
-    bottom:0;
-    right:0;
-    left:600px;
-    padding: 20px;
-    color:white;
-   background-color:rgba(255,193,7,0.8);
-   box-shadow: 3px 3px 0 rgba(158, 157, 157, 0.445);
-   width: 400px;
-   height: 130px;
-   display: flex;
-  }
-
-.btn {
-    position: relative;
-    top: 200px;
-    bottom: 0px;
-    right: 0px;
-    left: 100px;
-    }
+        
+      }
+      
+      
     .btn:hover,
     .btn:focus{
         cursor: pointer;
     }
-  
