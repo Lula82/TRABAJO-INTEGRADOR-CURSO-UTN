@@ -1,7 +1,7 @@
 @font-face {
     font-family: Raleway-Medium;
     src: url(fonts/Raleway-Medium.ttf);
-    }
+  }
 
   @font-face {
     font-family: Raleway-Regular;
@@ -10,9 +10,7 @@
   @font-face {
     font-family: Raleway-Bold;
     src: url(fonts/Raleway-Bold.ttf);
-}
-
-
+  }
 * {
 
     margin: 0;
@@ -21,13 +19,9 @@
     font-family: Raleway-Medium, sans-serif;
 }
 
-
-
 body {
     background-color: lightgrey;
-    font-family: 'Montserrat', serif;
-    font-size: 30px;
-}
+    }
 
 .contenedor-de-encabezado {
     background-color: white;
@@ -37,33 +31,31 @@ body {
 }
 
 #bienvenida {
-    color: #423B39;
-    font-size: 60px;
+    color:#423B39;
+    font-size: 70px;
 }
 
 .contenedor-de-encabezado .titulo {
-    color: #FF002F;
-    font-size: 30px;
-    font-weight: 800;
+    color:#FF002F;
+    font-size: 40px;
+    font-weight: 450;
+    
 
 }
-
 .contenedor-de-encabezado .menu nav {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
 }
-
 .contenedor-de-encabezado .menu a {
-
+    
     color: black;
     font-family: helvetica;
     font-size: 16px;
     text-decoration: none;
     padding: 12px 18px;
-
+    
 }
-
 .contenedor-de-encabezado .menu a:hover {
     border-bottom: 1px dotted black;
 }
@@ -72,10 +64,9 @@ body {
     max-width: 25rem;
     margin-top: 5%;
 }
-
 #bandera-korea {
     width: 50px;
-    height: 50px;
+    height:50px;
 }
 
 #bandera-japon {
@@ -83,108 +74,92 @@ body {
     height: 50px;
 }
 
-
 @import url('https://fonts.googleapis.com/css2? family= Raleway:ital,wght@1,400;1,500;1,600 & display=swap');
+  
 
-.container {
-    display: flex;
+.container.main {
+   display: flex;
+   background-color: #fff;
+   
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+   margin: auto;
+   margin-top: 150px;
+   border-radius: 25px;
+   flex-direction: column;
+
+
+}
+
+.form{
+    padding: 30px 80px;
     margin: auto;
     margin-top: 150px;
     border-radius: 25px;
-    color: #fff;
-    box-shadow: 0 0 20px rgba(201, 199, 253, 0.5);
-    border: solid 2px darkgray;
-    flex-direction: column;
+   
 }
 
+.form{
 
-.form {
-    margin: auto;
-    margin-top: 100px;
     padding: 30px 80px;
     width: 100%;
     display: flex;
     flex-direction: column;
-
+   
 }
 
-.form p {
+.form h2 {
+    font-size: 45px;
     color: #FF002F;
-    font-size: 30px;
-    font-weight: 800;
-    margin-bottom: 50px;
-
+    font-family: Raleway-Bold, sans-serif;
+    margin-bottom: 25px; 
 
 }
 
-label {
-    font-size: 15px;
+label{font-size: 15px;
     color: #050608;
-    margin-bottom: 15px;
-}
+    margin-bottom: 15px;}
 
-.box {
-    border: 0;
-    background-color: #F4F4FD;
-    padding: 15px;
-    border-radius: 25px;
-    margin-bottom: 25px;
-    outline: none;
-    flex-basis: 100%;
-}
-
-.select {
-
-    border: 0;
+    select{
+        border: 0;
     box-shadow: 0 0 20px rgba(201, 199, 253, 0.5);
     padding: 15px;
     border-radius: 15px;
-    margin-bottom: 25px;
-    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-top: 40px;
     outline: none;
-}
-
-.btn1 {
-    margin-top: 30px;
-    box-shadow: 0 0 20px rgba(201, 199, 253, 0.5)
-}
-
-.btn1:hover,
-.submit:focus {
-    cursor: pointer;
-}
-
-
-@media(max-width: 300px) {
-
-    .form {
-        width: 100px;
-        padding: 30px;
-    }
-
-    .container {
-        flex-direction: column;
     }
 
     .box {
-        flex-basis: 100%;
-
+        border: 0;
+        background-color: #F4F4FD;
+        padding: 15px;
+        border-radius: 25px;
+        margin-bottom: 15px;
+        outline: none;
     }
-}
+    .submit{
+        margin-top: 50px;
+        margin-bottom: 30px;
+         
+        border-radius: 25px;
+        width: 250px;
+        height: 40px;
+        
+    }
+    .submit:hover, .submit:focus {
+        cursor: pointer;
+    }
 
+   
+    
+     /* Inicio del footer */
 
-  /* Inicio del footer */
-  
-  
-
-  footer {
+footer {
     background-color: #33333371;
     color: #FFFFFF;
-    padding: 30px 50px;
-    margin-top: 50px;
-    height: 500px;
+    padding: 50px 0;
+    margin-top: 30px;
   }
-
   
   footer h3 {
     color: #FFC72C;
@@ -227,9 +202,10 @@ label {
     text-align: center;
     font-size: 14px;
     margin-top: 30px;
-  }
-  
-  /* Estilo para los íconos sociales */
+  } */
+
+    
+      /* Estilo para los íconos sociales */
   
   .social-icons li {
     display: inline-block;
@@ -259,3 +235,16 @@ label {
       
      
      /* Fin del footer */
+     
+    @media(max-width:300px){
+        .info {
+            display: none;
+        }
+        .form {
+            width: 100px;
+            padding: 30px;
+        }
+     }
+
+
+
